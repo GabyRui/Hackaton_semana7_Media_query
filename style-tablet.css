@@ -1,0 +1,20 @@
+@media (max-width: 1200px){
+
+    .progress_container_total{
+        flex-direction: column;
+    }
+
+    .project_detail_contenedor{
+        flex-direction: column;
+   
+    }
+
+    .contenedor_total_portfolio{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .blog_contenedor_article{
+        flex-direction: column;
+    }
+
+}

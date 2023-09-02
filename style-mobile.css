@@ -1,0 +1,7 @@
+@media (max-width: 768px){
+
+    .contenedor_total_portfolio{
+        grid-template-columns: 1fr;
+    }
+
+}
