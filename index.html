@@ -111,22 +111,29 @@
                     <h3>FRONT END</h3>
 
                     <div class="progreso_contenedor">
-                        <div class="progreso_texto">
-                            <p>React</p>
-                            <p>Javascript</p>
-                            <p>CSS</p>
-                            <p>Vue</p>
-                            <p>Redux</p>
-                            <p>React Native</p>
+                        <div class="skills-percent">
+                            <label class="label" for="React">React</label>
+                            <progress max="100" value="60"></progress>
                         </div>
-
-                        <div class="progreso_barras">
-                            <progress class="progress" max="100" value="70"></progress>
-                            <progress class="progress" max="100" value="70"></progress>
-                            <progress class="progress" max="100" value="70"></progress>
-                            <progress class="progress" max="100" value="70"></progress>
-                            <progress class="progress" max="100" value="70"></progress>
-                            <progress class="progress" max="100" value="70"></progress>
+                        <div class="skills-percent">
+                            <label class="label" for="Javascript">Javascript</label>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                        <div class="skills-percent">
+                            <label class="label" for="CSS">CSS</label>
+                            <progress max="100" value="90"></progress>
+                        </div>
+                            <div class="skills-percent">
+                            <label class="label" for="Vue">Vue</label>
+                            <progress max="100" value="60"></progress>
+                        </div>
+                        <div class="skills-percent">
+                            <label class="label" for="Redux">Redux</label>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                        <div class="skills-percent">
+                            <label class="label" for="React Native">React Native</label>
+                            <progress max="100" value="90"></progress>
                         </div>
                     </div>
                 </div>
@@ -135,14 +142,13 @@
                     <h3>DESIGN</h3>
 
                     <div class="progreso_contenedor">
-                        <div class="progreso_texto">
-                            <p>Figma</p>
-                            <p>Photoshop</p>
+                        <div class="skills-percent">
+                            <label class="label" for="Figma">Figma</label>
+                            <progress id="file" max="100" value="60">60%</progress>
                         </div>
-
-                        <div class="progreso_barras">
-                            <progress class="progress" max="100" value="65"></progress>
-                            <progress class="progress" max="100" value="82"></progress>
+                        <div class="skills-percent">
+                            <label class="label" for="React Native">Photoshop</label>
+                            <progress id="file" max="100" value="80">80%</progress>
                         </div>
                     </div>
                 </div>
@@ -161,7 +167,7 @@
                 <div class="project_details">
                     <p>#HTML #CSS #responsive</p>
                     <h3>Recipe Blog</h3>
-                    <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. </p>
+                    <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. <br> Donec aliquam est dui, vel vestibulum diam sollicitudin <br> id. Quisque feugiat malesuada molestie. </p>
 
                     <div>
                         <button class="button_demo">Demo</button>
@@ -177,7 +183,7 @@
                 <div class="project_details">
                     <p>#HTML #CSS #responsive</p>
                     <h3>My Gallery</h3>
-                    <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. </p>
+                    <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. <br> Donec aliquam est dui, vel vestibulum diam sollicitudin <br> id. Quisque feugiat malesuada molestie. </p>
 
                     <div>
                         <button class="button_demo">Demo</button>
@@ -193,7 +199,7 @@
                 <div class="project_details">
                     <p>#HTML #CSS #responsive</p>
                     <h3>Checkout</h3>
-                    <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. </p>
+                    <p>In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. <br> Donec aliquam est dui, vel vestibulum diam sollicitudin <br> id. Quisque feugiat malesuada molestie. </p>
 
                     <div>
                         <button class="button_demo">Demo</button>
@@ -208,20 +214,20 @@
                 <h3>Blogs (1)</h3>
             </div>
 
-            <div class="blog_contenedor_article">
-                <div class="article_detalles">
-                    <p class="blog_subcat">Blog</p>
-                    <h3>How to organize your CSS</h3>
-                    <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.  
-                    <br> <br>
-                    Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
-
-                    <p class="dev-to">dev.to</p>
+            <div class="contenedor_blog">
+                <div class="blog_contenedor_article">
+                    <div class="article_detalles">
+                        <p class="blog_subcat">Blog</p>
+                        <h3>How to organize your CSS</h3>
+                        <p>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.  
+                        <br> <br>
+                        Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                    </div>
+                    <div class="contenedor_imagen">
+                    <img src="./images/blog01.jpg" alt="">   
+                    </div>
                 </div>
-
-                <div class="contenedor_imagen">
-                <img src="./images/blog01.jpg" alt="">   
-                </div>
+                <p class="dev-to">dev.to</p>
             </div>
         </div>
     </div>

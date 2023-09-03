@@ -1,20 +1,18 @@
-@media (max-width: 1200px){
+@media (max-width: 1070px){
 
-    .progress_container_total{
-        flex-direction: column;
-    }
+.progress_container_total{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
-    .project_detail_contenedor{
-        flex-direction: column;
-   
-    }
+.project_detail_contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
-    .contenedor_total_portfolio{
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .blog_contenedor_article{
-        flex-direction: column;
-    }
+.blog_contenedor_article{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 }
